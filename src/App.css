@@ -1,0 +1,110 @@
+.header{
+    text-align: center;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.add-modal{
+    border: solid 0px;
+    width: 100px;
+    height: 35px;
+    color: aliceblue;
+    background-color: rgba(29, 29, 236, 0.8);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+.add-modal:hover{
+    background-color: rgb(0, 140, 255);
+    color: black;
+}
+
+.ModalContainer{
+    margin-top: -323px;
+    margin-left: -950px;
+    border: solid 0px;
+    width: 900px;
+    height: 700px;
+    background-color: rgb(52, 52, 59);
+    position: fixed;
+    z-index: 100;
+}
+.InputZone{
+    margin-top: -6%;
+    padding: 30px;
+}
+.InputZone h6{
+    margin-top: 15px;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left:200px;
+}
+.Input{
+    background-color: rgba(0, 0, 0, 0.200);
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 200px;
+    border: solid 0px;
+    border-radius: 1%;
+    border-color: aqua;
+    width: 400px;
+    height: 33px;
+}
+.Input:hover{
+    zoom: 101%;
+    border: solid 1px;
+    border-color: rgb(136, 146, 146);
+}
+
+
+.CloseBtn{
+    margin-top: 0px;
+    margin-left: 837px;
+    color: rgb(244, 248, 252);
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    width: 60px;
+    height: 35px;
+    border: solid 0px;
+    background-color: rgb(0, 0, 0,0.100);
+}
+.CloseBtn:hover{
+    background-color: rgb(232, 238, 243);
+    color: rgb(0, 0, 0,0.700);
+    border-color: rgb(63, 62, 61);
+}
+.Add-Btn{
+    border: solid 0px;
+    margin-left: 33%;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    width: 282px;
+    height: 30px;
+    padding-bottom:1% 0% 1% 0%;
+    background-color: rgb(0, 0, 0,0.200);
+}
+.Add-Btn:hover{
+    background-color: rgb(232, 238, 243);
+    color: rgb(0, 0, 0,0.700);
+    border-color: rgb(63, 62, 61);
+}
+.table-bordered thead tr{
+    height: 30px;
+    font-size: large;
+}
+.table-bordered tfoot tr{
+    height: 30px;
+    font-size: large;
+}
+.table-bordered tbody{
+    border: solid 0px;
+    color: rgb(50, 55, 59);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+    font-weight: 400;
+}
